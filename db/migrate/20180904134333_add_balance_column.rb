@@ -4,5 +4,4 @@ class AddBalanceColumn < ActiveRecord::Migration
       t.column :balance, :float, default: false
     end
   end
-  end
 end
